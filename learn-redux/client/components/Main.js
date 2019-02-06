@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router";
 
 const Main = React.createClass({
@@ -13,6 +13,5 @@ const Main = React.createClass({
     );
   }
 });
-
 
 export default Main;
