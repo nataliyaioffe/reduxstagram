@@ -3,7 +3,6 @@
 // 2. The action (Info about what happened)
 
 function posts(state = [], action) {
-        console.log(state, "state");
 
     switch(action.type) {
         case "INCREMENT_LIKES" :
